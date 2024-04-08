@@ -11,24 +11,31 @@ Web scraping is the process of extracting data from websites. This project showc
 Before running the web scraping script, make sure you have the following installed:
 - Python 3.11^
 - BeautifulSoup library
+  
   ```bash
   pip install beautifulsoup4
+  
 - Requests library
+  
   ```bash
   pip install requests
 
 ## Installation
 
 1. Clone the repository:
+   
    ```bash
    git clone https://github.com/H3nryK/Web-Scraping-Project.git
+   
 2. Navigate to the project directory:
+
    ```bash
    cd Web-Scraping-Project
 
 ## Usage
 
 1. Change the url value with the website url you want to scrape:
+
    ```bash
    import requests
    from bs4 import BeautifulSoap
@@ -36,10 +43,13 @@ Before running the web scraping script, make sure you have the following install
    url = " "
 
    ...(rest of teh code)...
-2. Run the project:
+   
+3. Run the project:
+
    ```bash
    py scrape.py
-3. The scraped data will be saved to a CSV file named scraped_data.csv
+   
+5. The scraped data will be saved to a CSV file named scraped_data.csv
 
 ## Features
 
